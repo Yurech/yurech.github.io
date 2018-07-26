@@ -86,12 +86,12 @@
     display: inline-block;
     order: 3;
 }
-.checkbox-menu:hover + .main-right-col {
+/* .checkbox-menu:hover + .main-right-col {
+    display: block;
+}  */
+.checkbox-menu:checked + .main-right-col {
     display: block;
 }
-/* .checkbox-menu:checked + .main-right-col {
-    display: block;
-} */
 .main-bye-now {
     padding: 11px 25px;
     margin-right: 20px;
