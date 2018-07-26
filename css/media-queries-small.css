@@ -1,0 +1,333 @@
+/* Small Devices, Tablets */
+@media only screen and (max-width : 480px) {
+.container {
+    max-width: 480px;
+    /* padding: 0 10px; */
+    /* min-width: 320px; */
+    /* border-left: 1px solid red;
+    border-right: 1px solid red; */
+}
+.grey-line {
+    width: 80%;
+}
+
+/* MAIN MENU START */
+.main-menu {
+    padding: 0;
+}
+.main-menu-item {
+    margin: 0 23px;
+}
+.main-logo {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;    
+}
+.logo-main-text {
+    color: #333333;
+}
+.logo-main-text span{
+    color: #8d81ac;
+}
+@media only screen and (max-width : 450px) {
+    .logo-main-text {
+        display: none;
+    }
+}
+.main-right-col {
+    display: none;
+    /* display: block; */
+    position: absolute;
+    z-index: 10;
+    /* left: calc(50% - 240px); */
+    left: 0;
+    top: 104px;
+    margin: 0;
+    background-color: #303030;
+    /* width: 480px; */
+    width: 100%;
+}
+.main-menu-list {
+    width: 100%;
+}
+.main-menu-item {
+    display: block;
+    width: 100%;
+    padding: 35px 0;
+    margin: 0;
+    border-bottom: 2px solid #383838;
+}
+.main-menu-item-home {
+    display: block;
+}
+.main-menu-link {
+    color: #fff;
+    border-left: 3px solid #383838;
+    font-size: 32px; 
+    font-weight: 400;
+    padding-left: 40px;
+}
+.main-menu-link:hover {
+    color: #8d81ac;
+    border-left: 3px solid #8d81ac;
+}
+.main-menu-link-home {
+    color: #868686;
+    border-left: 3px solid #383838;
+    font-size: 32px; 
+    font-weight: 400;
+    padding-left: 40px;
+}
+.main-menu-link-home:hover {
+    color: #8d81ac;
+    border-left: 3px solid #8d81ac;
+}
+.checkbox-container {
+    display: inline-block;
+    order: 3;
+}
+.checkbox-menu:hover + .main-right-col {
+    display: block;
+}
+/* .checkbox-menu:checked + .main-right-col {
+    display: block;
+} */
+.main-bye-now {
+    padding: 11px 25px;
+    margin-right: 20px;
+    margin-left: auto;
+}
+/* .main-menu-dropdown-img  {
+    display: inline-block;
+    order: 3;
+    cursor: pointer;
+    height: 104px;
+    width: 79px;
+    margin: auto 0;
+    position: relative;
+}
+.main-menu-dropdown-img img {
+    position: absolute;
+    border-left: 1px solid #fff;
+    padding: 10px 22px;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+}
+.main-menu-dropdown-img:hover + .main-right-col {
+    display: block;
+}
+.main-right-col:hover {
+    display: block;
+} */
+/* MAIN MENU END */
+
+/* HEADER START */
+@media only screen and (max-width : 420px) {
+    .download-trial {
+        left: calc(50% - 137px);
+    }
+    .download-button {
+        font-size: 18px;
+        padding: 23px 22px;
+    }
+}
+.header {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    padding-bottom: 576px;
+}
+.header-title {
+    font-size: 54px;
+    font-weight: bold;
+}
+.header-description {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 51px;
+    margin-right: 51px;
+    line-height: 1.5;
+}
+.header-version {
+    text-transform: uppercase;
+}
+/* HEADER END */
+
+/* PREFACE START */
+.preface-title {
+    font-size: 42px;
+}
+@media only screen and (max-width : 420px) {
+    .preface-title {
+        font-size: 34px;
+    }
+    .preface-bottons-item {
+        display: block;
+        margin-top: 5px;
+        margin-left: 25%;
+    }
+}
+.preface-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 90%;
+}
+/* PREFACE END */
+
+/* CONTENT START */
+.content {
+    padding: 45px 0 540px 0px;
+}
+.content-h1 {
+    order: -1;
+    font-size: 42px;
+    line-height: 1.3;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 52px;
+    margin: 0 auto;
+}
+.content-col-left {
+    width: 100%;
+    margin-left: 20px;;
+}
+.content-item-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-right: 30px;
+}
+.content-img-box {
+    position: absolute;
+    left: 0;
+    top: auto;
+    bottom: -630px;
+    height: 624px;
+    width: 100%;
+}
+/* CONTENT END */
+
+/* CUSTOMERS START */
+.customers {
+    padding-top: 120px;
+    padding-bottom: 45px;
+    margin-bottom: 0;
+}
+.custumers-review {
+    width: 90%;
+}
+.custumers-review-arrow {
+    vertical-align: middle;
+}
+.custumers-review-text {
+    font-size: 17px;
+    width: 80%; 
+}
+.custumers-line {
+    display: none;
+}
+.cusuomer-buttons {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.cusuomer-buttons-box {
+    width: 280px;
+    margin: 15px 0;
+}
+/* CUSTOMERS END */
+
+/* REWINEV START */
+.review {
+    padding-top: 70px;
+    padding-bottom: 1px;
+}
+.review-h1 {
+    padding-bottom: 35px;
+    font-size: 42px;
+    line-height: 1.5;
+    width: 90%;
+    margin: 0 auto;
+}
+.flex-warp-box {
+    justify-content: center;
+}
+.review-customer {
+    height: 150px;
+    max-width: 330px;
+    width: 100%;
+    margin-top: 53px;
+    margin-bottom: 5px;
+}
+.review-customer-logo {
+    margin-bottom: 37px;
+    text-align: center;
+    height: 50px;
+}
+/* REWINEV END */
+
+/* PRICE START */
+.price {
+    padding-bottom: 39px;
+}
+.price-warp-box {
+    margin-top: 0px;
+    margin-bottom: 39px;
+}
+.price-item {
+    margin: 7px;
+}
+.price-main-item {
+    margin: 7px;
+}
+.price-text {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(181, 173, 181, 0.8);
+    font-size: 14px;
+    width: 78%;
+}
+/* PRICE END */
+
+/* CALLBACK START */
+.callback {
+    /* padding: 25px 0 32px 0; */
+    text-align: center;
+}
+.callback-box {
+    display: none;
+}
+.callback-subscribe-box {
+    display: flex;
+}
+/* CALLBACK END */
+
+/* FOOTER START */
+.footer-box {
+    flex-wrap: wrap;
+    /* margin-left: 34px; */
+}
+.footer-header-shift {
+    padding-left: 0;
+}
+.footer-product {
+    width: 90%;
+    height: auto;
+    padding-bottom: 30px;
+}
+.footer-navigation {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+.footer-address {
+    width: 90%;
+    height: auto;
+    padding-bottom: 30px;
+}
+.footer-info {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+/* FOOTER END */
+}

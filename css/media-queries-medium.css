@@ -1,0 +1,172 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.container {
+    max-width: 768px;
+    /* border-left: 1px solid red;
+    border-right: 1px solid red; */
+}
+.grey-line {
+    width: 100%;
+}
+
+/* MAIN MENU START */
+.main-menu {
+    padding: 20px 0;
+    /* padding-left: 46px; */
+}
+.main-menu-item {
+    margin: 0 7px;
+}
+.main-logo {
+    margin-left: 20px;
+}
+.main-right-col {
+    order: 2;
+    margin: 23px auto auto auto;
+}
+.main-bye-now {
+    margin-right: 20px;
+    margin-left: auto;
+}
+/* MAIN MENU END */
+
+/* CONTENT START */
+.content {
+    padding: 52px 0 20px 0px;
+}
+.content-col-left {
+    width: 100%;
+    margin-left: 20px;;
+}
+.content-item-text {
+    margin-right: 30px;
+}
+.content-h1 {
+    order: -1;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 52px;
+}
+.content-img-box {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 624px;
+    width: 100%;
+/* 
+    position: absolute;
+    left: 45%;
+    top: 130px;
+    height: 624px;
+    width: 100%;
+     */
+}
+/* CONTENT END */
+
+/* CUSTOMERS START */
+.customers {
+    padding-bottom: 25px;
+    margin-bottom: 0;
+}
+.custumers-review {
+    width: 90%;
+}
+.custumers-review-text {
+    width: 80%; 
+}
+.cusuomer-buttons {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cusuomer-buttons-box {
+    margin: 0 20px 35px 20px;
+}
+/* CUSTOMERS END */
+
+/* REWINEV START */
+.review {
+    padding-top: 80px;
+    padding-bottom: 1px;
+}
+.review-h1 {
+    padding-bottom: 35px;
+}
+.review-customer {
+    height: 150px;
+    width: 45%;
+    margin-top: 53px;
+    margin-bottom: 5px;
+}
+.review-customer-logo {
+    margin-bottom: 37px;
+    text-align: center;
+    height: 50px;
+}
+/* REWINEV END */
+
+/* PRICE START */
+.price-warp-box {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 45px;
+}
+.price-item {
+    margin: 20px;
+}
+.price-main-item {
+    margin-top: 20px;
+}
+.price-text {
+    width: 85%;
+}
+/* PRICE END */
+
+/* CALLBACK START */
+.callback {
+    padding: 25px 0 32px 0;
+    text-align: center;
+}
+.callback-box {
+    display: block;
+}
+.callback-input-box {
+    display: flex;
+}
+
+.callback-label {
+    display: block;
+    text-align: center;
+    margin-bottom: 29px;
+}
+.input-format {
+    padding: 13px 26px;
+    margin: 0 10px;
+    width: 50%;
+}
+.callback-call-me {
+    margin-top: 26px;
+}
+/* CALLBACK END */
+
+/* FOOTER START */
+.footer-box {
+    flex-wrap: wrap;
+}
+.footer-product {
+    width: 47%;
+}
+.footer-navigation {
+    width: 47%;
+}
+.footer-address {
+    width: 47%;
+}
+.footer-info {
+    width: 47%;
+}
+/* FOOTER END */
+}
